@@ -16,13 +16,11 @@ export default function Footer() {
     const [answer, setAnswer] = React.useState('Answer from FAQ1')
 
     const faqHandlerChange = async(element: any) => {
-        console.log(element)
-        console.log(element.target)
         setAnswer(element.target.value)
     }
 
     return (
-        <div className="w-full lg:h-[50rem] h-[76rem] lg:mt-32 mt-52 lg:pt-20 lg:pb-32 bg-black text-white">
+        <div className="w-full lg:h-[51rem] h-[67rem] lg:mt-32 mt-52 lg:pt-20 lg:pb-32 bg-black text-white">
             <div className="lg:w-[1200px] lg:mx-auto relative">
                 <div className="lg:w-full absolute lg:z-10 top-[-10rem] lg:top-[-14rem] h-[38rem]">
                     <div className="bg-white text-black border-4 lg:p-10 border-black lg:mx-0 mx-4 rounded-xl p-4 flex lg:flex-row flex-col lg:justify-between gap-8 w-full">
