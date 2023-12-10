@@ -15,13 +15,26 @@ export default function Fitur() {
             title="Deteksi Kesegaran Ikan (A, B, dan C)"
             description="{Foto}"
           />
-          <FiturCard title="Prediksi Harga Ikan" description="{Foto}" />
+          <FiturCard
+            title="Prediksi Harga Ikan"
+            description="{Foto}"
+          />
           <FiturCard
             title="Keputusan Berlayar untuk Nelayan"
             description="{Foto}"
           />
-          <FiturCard title="Pembelian Ikan" description="{Foto}" />
-          <FiturCard title="Penjualan Ikan" description="{Foto}" />
+          <FiturCard
+            title="Pembelian Ikan"
+            description="{Foto}"
+          />
+          <FiturCard
+            title="Penjualan Ikan"
+            description="{Foto}"
+          />
+          <FiturCard
+            title="Buka Toko"
+            description="{Foto}"
+          />
         </div>
       </div>
     </div>
