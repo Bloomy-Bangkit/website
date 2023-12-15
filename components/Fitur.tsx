@@ -13,28 +13,16 @@ export default function Fitur() {
         <div className="lg:flex lg:flex-row lg:flex-wrap lg:justify-between lg:gap-20 flex flex-col gap-10">
           <FiturCard
             title="Deteksi Kesegaran Ikan (A, B, dan C)"
-            description="{Foto}"
+            description="lorem ipsum dolor sit amet"
           />
-          <FiturCard
-            title="Prediksi Harga Ikan"
-            description="{Foto}"
-          />
+          <FiturCard title="Prediksi Harga Ikan" description="lorem" />
           <FiturCard
             title="Keputusan Berlayar untuk Nelayan"
-            description="{Foto}"
+            description="lorem"
           />
-          <FiturCard
-            title="Pembelian Ikan"
-            description="{Foto}"
-          />
-          <FiturCard
-            title="Penjualan Ikan"
-            description="{Foto}"
-          />
-          <FiturCard
-            title="Buka Toko"
-            description="{Foto}"
-          />
+          <FiturCard title="Pembelian Ikan" description="lorem" />
+          <FiturCard title="Penjualan Ikan" description="lorem" />
+          <FiturCard title="Penjualan Ikan" description="lorem" />
         </div>
       </div>
     </div>

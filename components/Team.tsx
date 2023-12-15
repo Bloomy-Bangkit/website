@@ -1,5 +1,5 @@
 import TeamCard from "@/components/TeamCard";
-import FotoUser from "@/public/user.jpg";
+import FotoUser from "@/public/user.png";
 
 export default function Team() {
   return (
