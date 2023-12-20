@@ -7,7 +7,7 @@ export default function Teknologi() {
   return (
     <div
       id="Teknologi"
-      className="lg:w-full lg:h-auto lg:mt-20 lg:pt-20 lg:px-14 py-10 px-4"
+      className="lg:w-full lg:h-auto lg:py-20 lg:px-14 py-10 px-4"
     >
       <div className="lg:w-[1200px] lg:mx-auto">
         <h1 className="lg:w-full font-bold text-4xl text-center lg:mb-20 mb-10">

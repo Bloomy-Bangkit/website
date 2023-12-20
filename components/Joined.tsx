@@ -1,6 +1,6 @@
 export default function Joined() {
   return (
-    <div id="Joined" className="lg:w-full lg:h-auto lg:my-20 lg:px-14 px-4">
+    <div id="Joined" className="lg:w-full lg:h-auto lg:my-20 lg:px-14 px-4 lg:pt-32 pt-10">
       <div className="lg:w-[1200px] lg:mx-auto bg-[#050038] flex flex-col gap-4 lg:p-20 py-16 px-6 rounded-lg">
         <h1 className="text-white text-4xl font-semibold text-center">
           Bergabung Bersama Bloomy
