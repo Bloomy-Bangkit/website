@@ -3,7 +3,7 @@ import GithubIcon from "@/public/github.png";
 
 export default function TeamCard(props: any) {
   return (
-    <div className="lg:w-[48%] w-full bg-black relative z-10 flex flex-col justify-end rounded-2xl">
+    <div className="lg:w-[30%] max-h-[400px] w-full bg-black relative z-10 flex flex-col justify-end rounded-2xl">
       <div className="absolute w-full p-4 flex flex-col-reverse gap-2 lg:flex lg:flex-col">
         <h1 className="bg-white max-w-max py-2 px-5 rounded-lg text-sm font-semibold">
           {props.nama}
@@ -33,7 +33,7 @@ export default function TeamCard(props: any) {
           </a>
         </div>
       </div>
-      <Image src={props.image} alt="Default user" className="rounded-2xl" />
+      <Image src={props.image} alt="Default user" className="rounded-2xl w-full h-full" />
     </div>
   );
 }

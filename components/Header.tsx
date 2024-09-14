@@ -15,7 +15,7 @@ export default function Header() {
             berdasarkan klasifikasi A, B, dan C yang akurat dalam satu platform
             inovatif.
           </p>
-          <button className="lg:max-w-max bg-blue-500 py-3 px-10 text-xl font-semibold text-white rounded-md">
+          <button className="lg:max-w-max bg-[#2693C9] py-3 px-10 text-xl font-semibold text-white rounded-md">
             FIND US HERE
           </button>
         </div>
